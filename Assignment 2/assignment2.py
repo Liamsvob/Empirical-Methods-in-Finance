@@ -500,18 +500,3 @@ loglikelihood_uncons = -estimation_output_uncons.fun # remember that ml_var retu
 ### LR test, H0: bitcoin does not affect the other asset classes
 lr_test_stat = 2*(loglikelihood_uncons - loglikelihood_cons) 
 p_val_lr = chi2.sf(lr_test_stat, 3) # df = nb constraints = 3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
