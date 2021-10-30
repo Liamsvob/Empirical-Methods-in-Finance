@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 14 08:15:17 2021
-
-@author: Florian
-"""
-
 import datetime as dt
 from fitter import Fitter # pip install fitter
 import matplotlib.pyplot as plt
